@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/*Selector Universal*/
+/**{
+	color:red;
+
+}
+*/
+.contenedor{
+   width: 800px;
+   margin: auto;
+}
+/*Selector de etiqueta*/
+.titulo{
+	font-size: 50px;
+	color:#fff;
+	text-shadow: 3px 3px #FD6650;
+	clear:both;
+	
+
+}
+
+h2{
+	color:pink;
+	font-size: 30px;  
+}
+
+body{
+	color:peru;
+	margin: 0;
+}
+
+/*Selector de clase*/
+
+.fondo{
+	background-image: url(../imagenes/background.png);
+	background-size: cover;
+	/* clear: both; */
+	height: 500px;
+	margin: 0;
+	
+}
+
+.subrayado{
+
+	text-decoration: underline;
+	
+}
+
+/*Selector ID*/
+#aja{
+	box-shadow: 4px 4px 5px #333;
+	padding: 2px;
+	border: 3px solid red;
+	margin: 10px;
+	float: left;
+	
+}
+.texto-logo{
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  color: #FF444E;
+  float: left;
+  margin: 0;
+}
+.menu{
+	float: right;
+	list-style: none;
+	
+}
+.menu li{
+	display: inline-block;
+	margin: 10px;
+	font-size:24px;
+    
+
+}
+.menu a{
+    text-decoration: none;    
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px;
+}
+.menu a:active{
+  color: white;
+
+}
+.menu a:link{ /* la primera vez*/
+  color: white;
+
+}
+.menu a:hover{
+  background: rgba(255,255,255,0.3);
+  border-radius: 50%;
+}
+.menu a:visited{
+
+ color: white;
+}
+form{
+	border: 1px solid blue;
+	display: inline-block;
+	width: 520px;
+}
+.col0{
+	display: inline-block;
+}
+.col1{
+	/*float: left;*/
+	width: 250px;	
+	margin: 5px;
+	border: 1px solid red;
+	display: inline-block;
+}
+.col2{
+	/*float: right;	*/
+	width:250px;
+	border: 1px solid red;
+	display: inline-block;
+}
+footer{
+	background-color:#666;
+}
+input{
+	display: inline-block;
+	margin-top:5px;
+}

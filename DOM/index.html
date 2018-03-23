@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<form action="registrar.php" class="formulario">
+		<h1 class="titulo"> Registrese Aquí</h1>
+		<div>
+			<label for="nombres">Nombres</label>
+			<input type="text" name="nombres" id="nombres" required>
+		</div>
+
+		<div>
+			<label for="apellidos">Apellidos</label>
+			<input type="text" name="apellidos" id="apellidos" required>
+		</div>
+		<div>
+			<label for="correo">Correo</label>
+			<input type="email" name="correo" id="correo" required>
+		</div>
+		<div>
+			<label for="estadocivil">Estado Civil</label>
+			<select name="estadocivil" id="estadocivil">
+				<option value="0"> </option>
+				<option value="1">Soltero(a) </option>
+                <option value="2"> Casado(a)</option>
+				<option value="3">Union Libre </option>
+				<option value="4"> Viudo(a)</option>	
+			</select>
+		</div>
+      <div>
+      	<label for="genero">Genero</label>
+         Hombre <input type="radio" name="genero" value="H">
+         Mujer <input type="radio" name="genero" value="M">
+      </div>
+      <div>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" required>
+		</div>
+		<div>
+			<label for="password1">Confirmar Password</label>
+			<input type="password" name="password1" id="password1" required>
+		</div>
+    <div>
+    	<input type="button"  value="Enviar"  id="enviar"  class="boton">
+    	<input type="reset"   class="boton">
+    </div>
+     <div id="mensajes"></div>
+	</form>
+<script src="js/app.js"></script>	
+</body>
+</html>
